@@ -1,0 +1,6 @@
+require('plugins')
+require('options')
+require('binds')
+require('emmet-config')
+require('feline-config')
+require('lspconfig-rc')

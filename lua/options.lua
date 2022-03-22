@@ -21,5 +21,7 @@ vim.o.guicursor = 'n-v-c-sm-i:block,ci-ve:ver25,r-cr-o:hor20'
 vim.o.termguicolors = true
 
 vim.cmd('colorscheme tender')
+vim.cmd('highlight Normal guibg=none')
+vim.cmd('highlight NonText guibg=none')
 
 vim.api.nvim_exec([[ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o ]], false)

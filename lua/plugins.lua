@@ -7,7 +7,6 @@ require('packer').startup(
 		use 'junegunn/fzf'			-- Fzf 
 		use 'kyazdani42/nvim-web-devicons'	-- Icons
 		use 'neovim/nvim-lspconfig'		-- LSP
-		use 'nvim-treesitter/nvim-treesitter'	-- Syntax
 		use 'jacoborus/tender.vim'		-- Theme
 	end
 )

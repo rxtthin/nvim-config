@@ -1,7 +1,10 @@
 require('plugins')
 require('options')
 require('binds')
-require('emmet-config')
+
 require('statusline-config')
 require('lsp-config')
 require('treesitter-config')
+require('fzf-config')
+require('netrw-config')
+require('emmet-config')
